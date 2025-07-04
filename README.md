@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -96,7 +96,7 @@
     <div class="splash-screen" id="splash">WELCOME TO AY PAGE</div>
 
     <div class="container">
-        <h1>AY GADGETS</h1>
+        <h1>AY PAGE</h1>
         <p>This is my personal project containing a simple calculator, a BMI calculator, my contact info, and a splash
             message.</p>
 
@@ -110,10 +110,10 @@
             <input type="number" id="num2" />
         </div>
         <div class="input-group">
-            <button onclick="calculate('+')">+ ADD</button>
-            <button onclick="calculate('-')">- SUBTRACT</button>
-            <button onclick="calculate('*')">* MULTIPLY</button>
-            <button onclick="calculate('/')">/ DIVIDE</button>
+            <button onclick="calculate('+')">ADD</button>
+            <button onclick="calculate('-')">SUBTRACT</button>
+            <button onclick="calculate('*')">MULTIPLY</button>
+            <button onclick="calculate('/')">DIVIDE</button>
         </div>
         <div class="result" id="calcResult"></div>
 
